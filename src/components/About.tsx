@@ -9,9 +9,13 @@ const About = () => {
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
-            <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center border-2 border-primary/20">
-              <div className="w-72 h-72 rounded-full bg-muted flex items-center justify-center">
-                <span className="text-6xl font-poppins font-bold text-primary">AV</span>
+            <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center border-2 border-primary/20 p-2">
+              <div className="w-72 h-72 rounded-full overflow-hidden">
+                <img 
+                  src="https://i.postimg.cc/0NLy6LDG/a.jpg" 
+                  alt="Anubhav Verma"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
