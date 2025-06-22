@@ -1,9 +1,6 @@
-
 import { Card, CardContent } from '@/components/ui/card';
-
 const About = () => {
-  return (
-    <section id="about" className="py-20 bg-card/50">
+  return <section id="about" className="py-20 bg-card/50">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-poppins font-bold text-center mb-16">About Me</h2>
         
@@ -11,11 +8,7 @@ const About = () => {
           <div className="flex justify-center">
             <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center border-2 border-primary/20 p-2">
               <div className="w-72 h-72 rounded-full overflow-hidden">
-                <img 
-                  src="https://i.postimg.cc/0NLy6LDG/a.jpg" 
-                  alt="Anubhav Verma"
-                  className="w-full h-full object-cover"
-                />
+                <img src="https://i.postimg.cc/0NLy6LDG/a.jpg" alt="Anubhav Verma" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
@@ -53,18 +46,13 @@ const About = () => {
                     <span className="font-medium">MHT-CET</span>
                     <span className="text-muted-foreground">99.264 percentile</span>
                   </div>
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium">JEE</span>
-                    <span className="text-muted-foreground">78.69 percentile</span>
-                  </div>
+                  
                 </div>
               </CardContent>
             </Card>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
